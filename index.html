@@ -123,6 +123,26 @@
         </select>
     </section>
 
+    <div id="videoModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <video controls>
+                <source src="picture/MAYDEKA URTAS (2323127099) RESUME VIDEO.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('videoModal').style.display = 'block';
+        }
+    
+        function closeModal() {
+            document.getElementById('videoModal').style.display = 'none';
+        }
+    </script>
+
     <div class="contact-info">
         <p style="font-size: larger;">2023. MaydekaUrtas. All rights reversed</p>
     </div>
